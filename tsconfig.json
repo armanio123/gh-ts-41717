@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    // "allowJs": true,
+    "declaration": true,
+    "declarationDir": "./dist",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "lib": ["ESNext", "DOM"],
+    "outDir": "./dist",
+    "target": "es6",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "typedocOptions": {
+    "mode": "modules",
+    "out": "docs"
+  },
+  "include": ["src/**/*.ts", "src/**/*.json", "test"],
+  "exclude": ["node_modules", "dist", "src/**/*.spec.ts", "src/**/*.test.ts"]
+}
